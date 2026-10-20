@@ -1,0 +1,28 @@
+{
+  "github_username": "Jeswanthsurya-debug",
+  "handle": "surya",
+  "name": "Jeswanth Surya",
+  "tagline": "CS Student · AI & Cloud Builder",
+
+  "now": { "role": "Third-year B.Tech CSE student", "where": "@ Dr. M.G.R. University" },
+  "creating": "AI-powered apps and optimization tools with Python and cloud",
+  "stack": ["Python", "C", "C++", "JavaScript", "Java", "Flask", "Google Cloud", "React"],
+  "highlights": [
+    "Built ContextFlow-AI, a carbon footprint awareness platform",
+    "Working on quantum-inspired traffic route optimization",
+    "Completed a Google Cloud ADK lab with a perfect score"
+  ],
+
+  "headline": "CS Student @ Dr. M.G.R. University · AI & Cloud Builder",
+  "links": {
+    "email": "jeswanthsurya2005@gmail.com",
+    "instagram": "viltrumite.16",
+    "linkedin": "jeswanth-surya-9",
+    "x": "",
+    "youtube": "",
+    "website": ""
+  },
+
+  "heatmap": { "total": 300, "seed": 29, "end_date": "" },
+  "portrait": { "crop": "" }
+}
