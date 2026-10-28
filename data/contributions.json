@@ -1,11 +1,11 @@
 {
  "stats": {
-  "total": 122,
+  "total": 129,
   "longest_streak": 4,
-  "current_streak": 1,
+  "current_streak": 2,
   "best_day": 9,
   "best_day_date": "2026-10-05",
-  "active_days": 31
+  "active_days": 32
  },
  "days": [
   [
@@ -1478,7 +1478,7 @@
   ],
   [
    "2026-10-28",
-   0
+   7
   ]
  ]
 }
