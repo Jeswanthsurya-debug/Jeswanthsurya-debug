@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="300" viewBox="0 0 420 300" role="img"><style>
+.serif{font-family:'JS Serif',Georgia,'Times New Roman',serif}
+.sans{font-family:'JS Sans',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
+.mono{font-family:'JS Mono',ui-monospace,Menlo,Consolas,monospace;letter-spacing:.12em}
+.i{font-style:italic}
+
+@keyframes rise{from{opacity:0;transform:translateY(14px)}}
+@keyframes swing{from{opacity:0;transform:translateY(46px) rotate(5deg)}60%{opacity:1;transform:translateY(-6px) rotate(-1deg)}}
+@keyframes grow{from{transform:scaleY(0)}}
+@keyframes pop{from{opacity:0;transform:scale(.2)}60%{transform:scale(1.15)}}
+@keyframes fin{from{opacity:0}}
+@keyframes sweep{0%,55%{transform:translateX(0)}100%{transform:translateX(1100px)}}
+@keyframes pulse{0%{opacity:.9;transform:scale(1)}100%{opacity:0;transform:scale(2.6)}}
+@keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+.r{animation:rise .7s cubic-bezier(.2,.8,.2,1) var(--d,0s) both}
+.sw{transform-box:fill-box;transform-origin:50% 100%;animation:swing .95s cubic-bezier(.2,.9,.3,1) var(--d,0s) both}
+.gr{transform-box:fill-box;transform-origin:50% 100%;animation:grow .8s cubic-bezier(.2,.8,.2,1) var(--d,0s) both}
+.po{transform-box:fill-box;transform-origin:50% 50%;animation:pop .35s ease var(--d,0s) both}
+.fin{animation:fin .01s linear var(--d,0s) both}
+.sweep{animation:sweep 6s ease-in-out var(--d,0s) infinite}
+.ring{transform-box:fill-box;transform-origin:50% 50%;animation:pulse 2s ease-out infinite}
+.nudge{animation:nudge 2.2s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.smil{display:none}}
+</style><defs><linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<clipPath id="c"><rect width="420" height="300" rx="24"/></clipPath>
+<g class="sw" style="--d:1.26s">
+<rect width="420" height="300" rx="24" fill="#F5C842"/>
+<g clip-path="url(#c)"><rect class="sweep" x="-200" y="0" width="110" height="300" fill="url(#sh)" style="--d:3.26s"/></g>
+<text x="32" y="46" class="mono" font-size="13" fill="#111111">LEARN</text>
+<text class="nudge" x="388" y="47" text-anchor="end" font-size="20" fill="#111111">→</text>
+<g class="smil"><text x="32" y="150" font-size="76" fill="#111111" text-anchor="start" class="serif" visibility="hidden"><set attributeName="visibility" to="visible" begin="1.56s" dur="0.05s"/>203</text><text x="32" y="150" font-size="76" fill="#111111" text-anchor="start" class="serif" visibility="hidden"><set attributeName="visibility" to="visible" begin="1.61s" dur="0.05s"/>383</text><text x="32" y="150" font-size="76" fill="#111111" text-anchor="start" class="serif" visibility="hidden"><set attributeName="visibility" to="visible" begin="1.66s" dur="0.05s"/>542</text><text x="32" y="150" font-size="76" fill="#111111" text-anchor="start" class="serif" visibility="hidden"><set attributeName="visibility" to="visible" begin="1.71s" dur="0.05s"/>681</text><text x="32" y="150" font-size="76" fill="#111111" text-anchor="start" class="serif" visibility="hidden"><set attributeName="visibility" to="visible" begin="1.76s" dur="0.05s"/>802</text><text x="32" y="150" font-size="76" fill="#111111" text-anchor="start" class="serif" visibility="hidden"><set attributeName="visibility" to="visible" begin="1.81s" dur="0.05s"/>905</text><text x="32" y="150" font-size="76" fill="#111111" text-anchor="start" class="serif" visibility="hidden"><set attributeName="visibility" to="visible" begin="1.86s" dur="0.05s"/>993</text><text x="32" y="150" font-size="76" fill="#111111" text-anchor="start" class="serif" visibility="hidden"><set attributeName="visibility" to="visible" begin="1.91s" dur="0.05s"/>1,065</text><text x="32" y="150" font-size="76" fill="#111111" text-anchor="start" class="serif" visibility="hidden"><set attributeName="visibility" to="visible" begin="1.96s" dur="0.05s"/>1,125</text><text x="32" y="150" font-size="76" fill="#111111" text-anchor="start" class="serif" visibility="hidden"><set attributeName="visibility" to="visible" begin="2.01s" dur="0.05s"/>1,173</text><text x="32" y="150" font-size="76" fill="#111111" text-anchor="start" class="serif" visibility="hidden"><set attributeName="visibility" to="visible" begin="2.06s" dur="0.05s"/>1,210</text><text x="32" y="150" font-size="76" fill="#111111" text-anchor="start" class="serif" visibility="hidden"><set attributeName="visibility" to="visible" begin="2.11s" dur="0.05s"/>1,238</text><text x="32" y="150" font-size="76" fill="#111111" text-anchor="start" class="serif" visibility="hidden"><set attributeName="visibility" to="visible" begin="2.16s" dur="0.05s"/>1,258</text><text x="32" y="150" font-size="76" fill="#111111" text-anchor="start" class="serif" visibility="hidden"><set attributeName="visibility" to="visible" begin="2.21s" dur="0.05s"/>1,272</text><text x="32" y="150" font-size="76" fill="#111111" text-anchor="start" class="serif" visibility="hidden"><set attributeName="visibility" to="visible" begin="2.26s" dur="0.05s"/>1,280</text><text x="32" y="150" font-size="76" fill="#111111" text-anchor="start" class="serif" visibility="hidden"><set attributeName="visibility" to="visible" begin="2.31s" dur="0.05s"/>1,284</text><text x="32" y="150" font-size="76" fill="#111111" text-anchor="start" class="serif" visibility="hidden"><set attributeName="visibility" to="visible" begin="2.36s" dur="0.05s"/>1,286</text></g><text x="32" y="150" font-size="76" fill="#111111" text-anchor="start" class="serif fin" style="--d:2.41s">1,286</text>
+<text x="32" y="190" class="serif i" font-size="30" fill="#111111">Google Skills points</text>
+<text x="32" y="228" class="sans" font-size="14.5" fill="#111111" fill-opacity=".88">Four Google Cloud skill badges: ADK,</text><text x="32" y="249" class="sans" font-size="14.5" fill="#111111" fill-opacity=".88">BigQuery, Security Command Center, Dataplex.</text></g></svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" role="img"><style>
+.serif{font-family:'JS Serif',Georgia,'Times New Roman',serif}
+.sans{font-family:'JS Sans',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
+.mono{font-family:'JS Mono',ui-monospace,Menlo,Consolas,monospace;letter-spacing:.12em}
+.i{font-style:italic}
+
+@keyframes rise{from{opacity:0;transform:translateY(14px)}}
+@keyframes swing{from{opacity:0;transform:translateY(46px) rotate(5deg)}60%{opacity:1;transform:translateY(-6px) rotate(-1deg)}}
+@keyframes grow{from{transform:scaleY(0)}}
+@keyframes pop{from{opacity:0;transform:scale(.2)}60%{transform:scale(1.15)}}
+@keyframes fin{from{opacity:0}}
+@keyframes sweep{0%,55%{transform:translateX(0)}100%{transform:translateX(1100px)}}
+@keyframes pulse{0%{opacity:.9;transform:scale(1)}100%{opacity:0;transform:scale(2.6)}}
+@keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+.r{animation:rise .7s cubic-bezier(.2,.8,.2,1) var(--d,0s) both}
+.sw{transform-box:fill-box;transform-origin:50% 100%;animation:swing .95s cubic-bezier(.2,.9,.3,1) var(--d,0s) both}
+.gr{transform-box:fill-box;transform-origin:50% 100%;animation:grow .8s cubic-bezier(.2,.8,.2,1) var(--d,0s) both}
+.po{transform-box:fill-box;transform-origin:50% 50%;animation:pop .35s ease var(--d,0s) both}
+.fin{animation:fin .01s linear var(--d,0s) both}
+.sweep{animation:sweep 6s ease-in-out var(--d,0s) infinite}
+.ring{transform-box:fill-box;transform-origin:50% 50%;animation:pulse 2s ease-out infinite}
+.nudge{animation:nudge 2.2s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.smil{display:none}}
+</style><defs><clipPath id="nm"><text x="34" y="214" font-size="92" class="serif">Surya.</text></clipPath><linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".75"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<rect width="900" height="330" rx="22" fill="#F4F3EF"/>
+<g class="r" style="--d:0.00s"><circle cx="44" cy="53" r="4.5" fill="#2B44FF"/><circle class="ring" cx="44" cy="53" r="4.5" fill="#2B44FF"/>
+<text x="60" y="58" class="mono" font-size="12" fill="#111111" fill-opacity=".7">OPEN TO INTERNSHIPS · 2026</text></g>
+<text x="34" y="132" class="serif r" font-size="92" fill="#111111" style="--d:0.15s">Jeswanth</text>
+<text x="34" y="214" font-size="92" fill="#2B44FF" style="--d:.35s" class="serif r">Surya.</text>
+<g clip-path="url(#nm)"><rect class="sweep" x="-200" y="120" width="110" height="110" fill="url(#sh)" style="--d:2.20s"/></g>
+<text x="36" y="262" class="sans r" font-size="17" fill="#111111" fill-opacity=".62" style="--d:0.90s">Aspiring software engineer building practical</text><text x="36" y="286" class="sans r" font-size="17" fill="#111111" fill-opacity=".62" style="--d:1.00s">AI, cloud and web projects.</text>
+<g class="r" style="--d:1.20s"><text x="36" y="312" class="mono" font-size="11" fill="#111111" fill-opacity=".5">jeswanthsurya-debug.github.io/jeswanth-portfolio</text></g>
+<g class="r" style="--d:0.60s"><circle cx="740" cy="165" r="105" fill="#2B44FF"/><text x="740" y="190" text-anchor="middle" class="serif i" font-size="78" fill="#fff">JS.</text></g></svg>
