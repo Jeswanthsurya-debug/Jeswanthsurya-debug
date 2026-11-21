@@ -29,5 +29,5 @@
 <text x="34" y="214" font-size="92" fill="#2B44FF" style="--d:.35s" class="serif r">Surya.</text>
 <g clip-path="url(#nm)"><rect class="sweep" x="-200" y="120" width="110" height="110" fill="url(#sh)" style="--d:2.20s"/></g>
 <text x="36" y="262" class="sans r" font-size="17" fill="#111111" fill-opacity=".62" style="--d:0.90s">Aspiring software engineer building practical</text><text x="36" y="286" class="sans r" font-size="17" fill="#111111" fill-opacity=".62" style="--d:1.00s">AI, cloud and web projects.</text>
-<g class="r" style="--d:1.20s"><text x="36" y="312" class="mono" font-size="11" fill="#111111" fill-opacity=".5">jeswanthsurya-debug.github.io/jeswanth-portfolio</text></g>
+<g class="r" style="--d:1.20s"><text x="36" y="312" class="mono" font-size="11" fill="#111111" fill-opacity=".5">portfolio-surya-696e.vercel.app</text></g>
 <g class="r" style="--d:0.60s"><circle cx="740" cy="165" r="105" fill="#2B44FF"/><text x="740" y="190" text-anchor="middle" class="serif i" font-size="78" fill="#fff">JS.</text></g></svg>
