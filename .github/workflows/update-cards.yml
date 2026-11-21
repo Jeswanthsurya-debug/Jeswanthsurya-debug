@@ -1,10 +1,10 @@
 name: Update profile cards
 on:
   schedule:
-    - cron: "30 0 * * *"   # daily, 06:00 IST
+    - cron: "0 * * * *"   # every hour
   workflow_dispatch:
   push:
-    paths: ["*.py", "fonts/**", "assets/**"]
+    paths: ["*.py", "stats.json", "fonts/**", "assets/**"]
 permissions:
   contents: write
 jobs:
