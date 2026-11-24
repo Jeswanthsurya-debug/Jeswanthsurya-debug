@@ -43,21 +43,21 @@ SOCIALS = [  # (label, url, dot colour) - first one is the primary pill
 
 TILES = [  # three linked tiles in a row
     dict(file="tile-build", label="BUILD", big=str(STATS.get("projects", "4+")), count=None, unit="projects shipped",
-         desc="ContextFlow-AI, CarbonFlow-AI, a GenAI DevOps assistant and a from-scratch chess game.",
-         bg=BRAND, fg="#FFFFFF", url=PORTFOLIO),
+         desc="ContextFlow-AI, a Google GenAI DevOps assistant, Stadium Buddy and a from-scratch chess game.",
+         bg=BRAND, fg="#FFFFFF", url=PORTFOLIO + "#work"),
     dict(file="tile-youtube", label="YOUTUBE", big="Surya Builds", count=None, unit="on YouTube",
          desc="Build logs and walkthroughs of the AI, cloud and web projects I ship.",
          bg=RED, fg="#FFFFFF", url="https://www.youtube.com/@SuryaBulids"),
     dict(file="tile-learn", label="LEARN", big="", count=int(STATS.get("skill_points", 6171)), unit="experience points",
          desc=f'{STATS.get("badges", 14)} Google Skills badges earned across Google Cloud, BigQuery, ADK and security.',
-         bg=YELLOW, fg=INK, url=PORTFOLIO),
+         bg=YELLOW, fg=INK, url=PORTFOLIO + "#record"),
 ]
 
-REPOS = [  # (repo name, one-liner, tags)  <- check the repo names match yours
-    ("ContextFlow-AI", "A contextual AI workflow that routes prompts through a modular pipeline, so each stage adds context before the model answers.", "Python · Flask · Anthropic API"),
-    ("GenAI-DevOps-Assistant", "An assistant built with Google's Agent Development Kit that answers DevOps questions with workflow-aware responses.", "Python · ADK · Vertex AI"),
-    ("CarbonFlow-AI", "A carbon footprint awareness platform that shows the climate cost of everyday choices and suggests lower-impact alternatives.", "Python · AI"),
-    ("Chess-Game", "Browser chess built from scratch: legal move validation, check and checkmate detection. No libraries, just logic.", "HTML · CSS · JavaScript"),
+REPOS = [  # (title, one-liner, tags, repo name on GitHub or None -> links to your profile)
+    ("ContextFlow-AI", "A contextual AI workflow that routes prompts through a modular pipeline, so each stage adds context before the model answers.", "Python · Prompt Engineering", "ContextFlow-AI"),
+    ("Google GenAI DevOps Assistant", "An assistant concept that reads DevOps questions and gives workflow-aware answers, built with Google GenAI and ADK ideas.", "Python · Google GenAI · ADK · Vertex AI", None),
+    ("Stadium Buddy", "A smart-assistant concept for stadium navigation and fan services: seating, amenities and event information.", "Python", None),
+    ("Chess Game", "Browser chess built from scratch: turn-based play with legal move validation and a responsive board. No libraries, just logic.", "HTML · CSS · JavaScript", "Chessgame-"),
 ]
 # ───────────────────────────────────────────────────────────
 
@@ -287,7 +287,7 @@ def activity(days):
 
 
 def repo(r, i):
-    name, desc, tags = r
+    name, desc, tags = r[:3]
     h, col = 170, [BRAND, RED, YELLOW][i % 3]
     dl = 0.3 + i * 0.2
     lines = "".join(f'<text x="36" y="{122 + 22 * k}" class="sans" font-size="15" fill="{INK}" fill-opacity=".68">{e(s)}</text>'
@@ -378,7 +378,7 @@ def main():
                             for l, u, _ in pills) + "</p>\n",
           "\n".join(f'<a href="{t["url"]}"><img src="./cards/{t["file"]}.svg" width="32.5%" alt="{t["label"]}"/></a>' for t in TILES) + "\n",
           f'<a href="{gh}"><img src="./cards/activity.svg" width="100%" alt="Contributions per month"/></a>\n']
-    md += [f'<a href="{gh}/{r[0]}"><img src="./cards/repo-{i + 1}.svg" width="100%" alt="{r[0]}"/></a>\n' for i, r in enumerate(REPOS)]
+    md += [f'<a href="{gh}/{r[3] if r[3] else ""}"><img src="./cards/repo-{i + 1}.svg" width="100%" alt="{r[0]}"/></a>\n' for i, r in enumerate(REPOS)]
     md.append(f'<a href="{gh}"><img src="./cards/graph.svg" width="100%" alt="Contribution graph"/></a>\n')
     (ROOT / "README.md").write_text("\n".join(md), encoding="utf-8")
     print(f"rendered {len(list(OUT.glob('*.svg')))} cards{' (static)' if STATIC else ''}")
