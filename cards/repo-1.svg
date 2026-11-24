@@ -26,7 +26,7 @@
 <rect width="900" height="170" rx="20" fill="#F4F3EF"/>
 <rect x="0" y="28" width="6" height="114" rx="3" fill="#2B44FF"/>
 <text x="36" y="44" class="mono" font-size="11" fill="#111111" fill-opacity=".55">FEATURED REPO · 01</text>
-<text x="844" y="44" text-anchor="end" class="mono" font-size="11" fill="#111111" fill-opacity=".55">PYTHON · FLASK · ANTHROPIC API</text>
+<text x="844" y="44" text-anchor="end" class="mono" font-size="11" fill="#111111" fill-opacity=".55">PYTHON · PROMPT ENGINEERING</text>
 <text class="nudge" x="864" y="46" text-anchor="end" font-size="18" fill="#111111">→</text>
 <text x="34" y="98" class="serif" font-size="40" fill="#111111">ContextFlow-AI</text>
 <text x="36" y="122" class="sans" font-size="15" fill="#111111" fill-opacity=".68">A contextual AI workflow that routes prompts through a modular pipeline, so each stage adds context</text><text x="36" y="144" class="sans" font-size="15" fill="#111111" fill-opacity=".68">before the model answers.</text></g></svg>

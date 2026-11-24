@@ -28,5 +28,5 @@
 <text x="36" y="44" class="mono" font-size="11" fill="#111111" fill-opacity=".55">FEATURED REPO · 04</text>
 <text x="844" y="44" text-anchor="end" class="mono" font-size="11" fill="#111111" fill-opacity=".55">HTML · CSS · JAVASCRIPT</text>
 <text class="nudge" x="864" y="46" text-anchor="end" font-size="18" fill="#111111">→</text>
-<text x="34" y="98" class="serif" font-size="40" fill="#111111">Chess-Game</text>
-<text x="36" y="122" class="sans" font-size="15" fill="#111111" fill-opacity=".68">Browser chess built from scratch: legal move validation, check and checkmate detection. No</text><text x="36" y="144" class="sans" font-size="15" fill="#111111" fill-opacity=".68">libraries, just logic.</text></g></svg>
+<text x="34" y="98" class="serif" font-size="40" fill="#111111">Chess Game</text>
+<text x="36" y="122" class="sans" font-size="15" fill="#111111" fill-opacity=".68">Browser chess built from scratch: turn-based play with legal move validation and a responsive board.</text><text x="36" y="144" class="sans" font-size="15" fill="#111111" fill-opacity=".68">No libraries, just logic.</text></g></svg>

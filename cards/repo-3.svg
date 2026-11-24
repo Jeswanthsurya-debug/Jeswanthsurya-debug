@@ -26,7 +26,7 @@
 <rect width="900" height="170" rx="20" fill="#F4F3EF"/>
 <rect x="0" y="28" width="6" height="114" rx="3" fill="#F5C842"/>
 <text x="36" y="44" class="mono" font-size="11" fill="#111111" fill-opacity=".55">FEATURED REPO · 03</text>
-<text x="844" y="44" text-anchor="end" class="mono" font-size="11" fill="#111111" fill-opacity=".55">PYTHON · AI</text>
+<text x="844" y="44" text-anchor="end" class="mono" font-size="11" fill="#111111" fill-opacity=".55">PYTHON</text>
 <text class="nudge" x="864" y="46" text-anchor="end" font-size="18" fill="#111111">→</text>
-<text x="34" y="98" class="serif" font-size="40" fill="#111111">CarbonFlow-AI</text>
-<text x="36" y="122" class="sans" font-size="15" fill="#111111" fill-opacity=".68">A carbon footprint awareness platform that shows the climate cost of everyday choices and suggests</text><text x="36" y="144" class="sans" font-size="15" fill="#111111" fill-opacity=".68">lower-impact alternatives.</text></g></svg>
+<text x="34" y="98" class="serif" font-size="40" fill="#111111">Stadium Buddy</text>
+<text x="36" y="122" class="sans" font-size="15" fill="#111111" fill-opacity=".68">A smart-assistant concept for stadium navigation and fan services: seating, amenities and event</text><text x="36" y="144" class="sans" font-size="15" fill="#111111" fill-opacity=".68">information.</text></g></svg>

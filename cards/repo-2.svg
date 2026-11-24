@@ -26,7 +26,7 @@
 <rect width="900" height="170" rx="20" fill="#F4F3EF"/>
 <rect x="0" y="28" width="6" height="114" rx="3" fill="#E04B3A"/>
 <text x="36" y="44" class="mono" font-size="11" fill="#111111" fill-opacity=".55">FEATURED REPO · 02</text>
-<text x="844" y="44" text-anchor="end" class="mono" font-size="11" fill="#111111" fill-opacity=".55">PYTHON · ADK · VERTEX AI</text>
+<text x="844" y="44" text-anchor="end" class="mono" font-size="11" fill="#111111" fill-opacity=".55">PYTHON · GOOGLE GENAI · ADK · VERTEX AI</text>
 <text class="nudge" x="864" y="46" text-anchor="end" font-size="18" fill="#111111">→</text>
-<text x="34" y="98" class="serif" font-size="40" fill="#111111">GenAI-DevOps-Assistant</text>
-<text x="36" y="122" class="sans" font-size="15" fill="#111111" fill-opacity=".68">An assistant built with Google&#x27;s Agent Development Kit that answers DevOps questions with workflow-</text><text x="36" y="144" class="sans" font-size="15" fill="#111111" fill-opacity=".68">aware responses.</text></g></svg>
+<text x="34" y="98" class="serif" font-size="40" fill="#111111">Google GenAI DevOps Assistant</text>
+<text x="36" y="122" class="sans" font-size="15" fill="#111111" fill-opacity=".68">An assistant concept that reads DevOps questions and gives workflow-aware answers, built with Google</text><text x="36" y="144" class="sans" font-size="15" fill="#111111" fill-opacity=".68">GenAI and ADK ideas.</text></g></svg>

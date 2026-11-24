@@ -30,4 +30,4 @@
 <text class="nudge" x="388" y="47" text-anchor="end" font-size="20" fill="#FFFFFF">→</text>
 <text x="32" y="140" class="serif r" font-size="54" fill="#FFFFFF" style="--d:1.20s">4</text>
 <text x="32" y="184" class="serif i" font-size="30" fill="#FFFFFF">projects shipped</text>
-<text x="32" y="228" class="sans" font-size="14.5" fill="#FFFFFF" fill-opacity=".88">ContextFlow-AI, CarbonFlow-AI, a GenAI</text><text x="32" y="249" class="sans" font-size="14.5" fill="#FFFFFF" fill-opacity=".88">DevOps assistant and a from-scratch chess</text><text x="32" y="270" class="sans" font-size="14.5" fill="#FFFFFF" fill-opacity=".88">game.</text></g></svg>
+<text x="32" y="228" class="sans" font-size="14.5" fill="#FFFFFF" fill-opacity=".88">ContextFlow-AI, a Google GenAI DevOps</text><text x="32" y="249" class="sans" font-size="14.5" fill="#FFFFFF" fill-opacity=".88">assistant, Stadium Buddy and a from-scratch</text><text x="32" y="270" class="sans" font-size="14.5" fill="#FFFFFF" fill-opacity=".88">chess game.</text></g></svg>
